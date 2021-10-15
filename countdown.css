@@ -1,0 +1,49 @@
+.timer-container {
+  color: #333;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.head-timer {
+  font-weight: normal;
+  letter-spacing: .125rem;
+  text-transform: uppercase;
+}
+
+.timer-list {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+.timer-list .timer-word {
+  display: block;
+  font-size: 4.5rem;
+}
+
+.emoji {
+  display: none;
+  padding: 1rem;
+}
+
+.emoji span {
+  font-size: 4rem;
+  padding: 0 .5rem;
+}
+
+@media all and (max-width: 768px) {
+  .head-timer {
+    font-size: 1.5rem;
+  }
+  
+  .timer-list {
+    font-size: 1.125rem;
+    padding: .75rem;
+  }
+  
+  .timer-list .timer-word {
+    font-size: 3.375rem;
+  }
+}
